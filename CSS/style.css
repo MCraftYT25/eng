@@ -1,0 +1,163 @@
+/*————————————————————————————————————————|Podstawowe|————————————————————*/
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-color: rgb(253,217,141);
+    --second-color: #333;
+    --bg-color: rgb(253,217,141);
+    --font-color: black;
+    --font-2nd-color: #f2a86f;
+}
+/*:root {
+    --main-color: rgb(253,217,141);
+    --second-color: #333;
+    --bg-color: rgb(253,217,141);
+    --font-color: black;
+    --font-2nd-color: #f2a86f;
+}
+::-webkit-scrollbar {
+    background: rgb(253,217,141);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 2px black; 
+}*/
+/*————————————————————————————————————————|Fonts|————————————————————*/
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../files/fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Apple';
+    src: url('../files/fonts/SFUIText-Regular.otf');
+}
+@font-face {
+    font-family: 'Apple-bold';
+    src: url('../files/fonts/SFUIText-Bold.otf');
+}
+@font-face {
+    font-family: 'Apple-heavy';
+    src: url('../files/fonts/SFUIText-Heavy.otf');
+}
+@font-face {
+    font-family: 'Apple-semi-bold';
+    src: url('../files/fonts/SFUIText-Semibold.otf');
+}
+@font-face {
+    font-family: 'Apple-light';
+    src: url('../files/fonts/SFUIText-Light.otf');
+}
+/*————————————————————————————————————————|Header|————————————————————*/
+header {
+    text-align: center;
+    padding: 0.5em 0;
+    background-color: var(--main-color);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Apple-semi-bold';
+    color: var(--font-2nd-color);
+    padding: 0.5em;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: var(--main-color);
+    color: black;
+}
+body {
+    font-family: 'Apple';
+}
+footer {
+    font-size: 0.8em;
+    padding: 0.5em 0;
+    text-align: center;
+    background-color: var(--main-color);
+}
+/*————————————————————————————————————————|Page|————————————————————*/
+#page-content {
+    max-width: 800px;
+    padding: 0 0.5em;
+}
+#page-content h2 {
+    margin: 0.5em 0;
+    background-color: var(--main-color);
+    padding: 0.5em;
+    border-radius: 0.2em;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    font-family: 'Apple-semi-bold';
+}
+h2, h3, h4, h5 {
+    margin: 0.5em 0;
+}
+/*————————————————————————————————————————||————————————————————*/
+.pauza {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.build {
+    max-width: 100%; 
+    max-width: 500px;
+    margin: 0.5em 0;
+    font-family: 'Apple-semi-bold';
+}
+.build span {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+.build span span {
+    width: 40%;
+}
+.build .pauza {
+    width: 5%;
+    margin: 0;
+}
+.small {
+    font-size: 0.7em;
+    font-family: 'Apple';
+}
+.description {
+    margin: 0.5em 0;
+}
+.example {
+    margin: 0.5em 0;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.translate {
+    color: gray;
+}
+div.pqn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 500px;
+}
+div.pqn .sample {
+    width: 30%; 
+}
+div.pqn p {
+    width: 50%;
+    margin: 0.2em 0;
+}
+.p {
+    color: green;
+    font-family: 'Apple-semi-bold';
+}
+.q {
+    color: blue;
+    font-family: 'Apple-semi-bold';
+}
+.n {
+    color: red;
+    font-family: 'Apple-semi-bold';
+}
+sub {
+    color: green;
+} 
+/*————————————————————————————————————————||————————————————————*/
